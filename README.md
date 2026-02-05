@@ -24,15 +24,15 @@ This project builds and compares two machine learning models to predict whether 
 Decision Tree outperforms SVM with better recall for loan accepters (87% vs 78%), making it more suitable for identifying potential customers.
 
 ### Files
-- `decision_tree_model.pkl` — Trained Decision Tree model
-- `svm_model.pkl` — Trained SVM model
-- `scaler.pkl` — StandardScaler for feature scaling
+- `decision_tree_model.pkl` Trained Decision Tree model
+- `svm_model.pkl` Trained SVM model
+- `scaler.pkl` StandardScaler for feature scaling
 
 
 
 
 ### Key Insights
-- Age and Experience are highly correlated (1.0) — only one needed
+- Age and Experience are highly correlated (1.0)  only one needed
 - Decision Tree is the better model for this problem
 - 98% accuracy on test data
 - Model can effectively identify loan accepters
